@@ -3,7 +3,7 @@ resource "google_compute_instance" "dare-id-vm" {
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
- 
+ tags = ["dareit"]
 
   boot_disk {
     initialize_params {
