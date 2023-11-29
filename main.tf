@@ -1,3 +1,4 @@
+/*
 resource "google_compute_instance" "dare-id-vm" {
   name         = "dareit-vm-tf"
   machine_type = "e2-medium"
@@ -50,3 +51,4 @@ resource "google_compute_instance" "dare-id-vm" {
     }
   }
 }
+*/
